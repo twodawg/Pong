@@ -15,8 +15,7 @@ namespace Pong {
         /// </summary>
         [STAThread]
         static void Main() {
-            using (var game = new PongGame())
-                game.Run();
+            new PongGame().Run();
         }
     }
 #endif
